@@ -9,7 +9,7 @@ export default class extends React.Component {
     return(
       <div>
         <Header/>
-        body text
+          body text
         <Footer/>
       </div>
     )
