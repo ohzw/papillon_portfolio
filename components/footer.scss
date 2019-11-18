@@ -1,0 +1,30 @@
+// @import "../colors/index.scss";
+@import "../fonts/index.scss";
+// @import "../parameters/index.scss";
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2.5px solid black ;
+
+  .contact {
+    width: 10%;
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .copyright {
+    width: 10%;
+    float: right;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/logo.png");
+  }
+}

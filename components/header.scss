@@ -1,0 +1,33 @@
+// @import "../colors/index.scss";
+@import "../fonts/index.scss";
+// @import "../parameters/index.scss";
+
+
+.header_title {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+
+  h1 {
+    font-size: 70px;
+    letter-spacing: 0.3em;
+    font-family: $header_font;
+  }
+
+  p {
+    font-family: $header_text;
+  }
+}
+
+.header_menu {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-bottom: 2.5px solid black ;
+
+  li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+  }
+}
