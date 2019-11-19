@@ -1,6 +1,6 @@
-@import "../fonts/index.scss";
-// @import "../colors/index.scss";
-// @import "../parameters/index.scss";
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
 
 
 .header_title {
@@ -15,7 +15,8 @@
   }
 
   p {
-    font-family: $header_text;
+    font-family: $header_text_font;
+    font-size: $header_text_fontsize;
   }
 }
 
@@ -23,11 +24,13 @@
   text-align: center;
   padding-top: 0px;
   padding-bottom: 10px;
-  border-bottom: 2.5px solid black ;
+  border-bottom: $border_style;
 
   li {
     list-style-type: none;
     display: inline;
     margin-right: 40px;
+    font-family: $header_menu_font;
+    font-size: $header_menu_fontsize;
   }
 }

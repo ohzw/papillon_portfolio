@@ -1,0 +1,49 @@
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
+
+body {
+  padding: 0;
+  width: $site_width;
+  margin: 0px auto;
+  color: $text_color;
+}
+
+.about {
+  height: 400px;
+}
+
+.about_logo {
+  width: 40%;
+  height: 400px;
+  float: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  img {
+    height: 120px;
+    width: auto;
+  }
+}
+
+.about_company {
+  width: 55%;
+  height: 400px;
+  float: right;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+
+
+  ul {
+    list-style-type: none;
+    display: inline;
+    padding-left: 0px;
+
+    li{
+      font-family: $about_company_font;
+      font-size: $about_company_fontsize;
+    }
+  }
+}

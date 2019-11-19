@@ -1,31 +1,39 @@
-// @import "../colors/index.scss";
-@import "../fonts/index.scss";
-// @import "../parameters/index.scss";
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
 
 .footer {
   padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 2.5px solid black ;
+  height: 60px;
+  border-top: $border_style;
+  line-height: 60px;
 
+  p {
+    margin: 0;
+    font-size: $footer_text_fontsize;
+    font-family: $footer_text_font;
+  }
   .contact {
-    width: 33%;
+    width: 30%;
     float: left;
     text-align: left;
-    margin: 0;
+
   }
   .copyright {
-    width: 33%;
+    width: 30%;
     float: left;
     text-align: right;
-    margin: 0;
+
   }
   .logo {
-    width: 33%;
+    width: 40%;
     float: left;
     text-align: center;
-  img {
-    height: 35px;
-    width: auto;
-  }
+
+    img {
+      height: 40px;
+      width: auto;
+      margin-top: 10px;
+    }
   }
 }
