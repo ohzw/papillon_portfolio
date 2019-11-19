@@ -1,0 +1,78 @@
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
+
+body {
+  padding: 0;
+  width: $site_width;
+  margin: 0px auto;
+  color: $text_color;
+  min-width: 700px;
+}
+
+.current_work2 {
+  margin: 25px auto;
+  height: 400px;
+
+  .current_work_image {
+    width: auto;
+    height: 400px;
+    float: right;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img {
+      width:auto;
+      height:auto;
+      max-width:100%;
+      max-height:100%;
+      margin: 0px 50px;
+    }
+  }
+  .current_work_text {
+    border-right: mediumpurple 2px solid;
+    // background-color: brown;
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    float: right;
+    p {
+      margin: 0px 50px;
+    }
+  }
+}
+
+.current_work {
+  margin: 25px auto;
+  height: 400px;
+
+  .current_work_image {
+    width: 48%;
+    height: 400px;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img {
+      width:auto;
+      height:auto;
+      max-width:100%;
+      max-height:100%;
+    }
+  }
+  .current_work_text {
+    border-left: mediumpurple 2px solid;
+    // background-color: brown;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    float: right;
+    p {
+      margin: 0px 50px;
+    }
+  }
+}
