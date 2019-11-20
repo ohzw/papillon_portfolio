@@ -11,6 +11,7 @@ export default class extends React.Component {
         <Header/>
         <div className={scss.current_work}>
           <div className={scss.current_work_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.current_work_border}/>
           <div className={scss.current_work_text}>
             <h2>current work</h2>
             <p>TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
@@ -21,6 +22,7 @@ export default class extends React.Component {
         </div>
         <div className={scss.current_work2}>
           <div className={scss.current_work_image}><img src={require("../images/example_page2.jpg")}/></div>
+          <div className={scss.current_work_border}/>
           <div className={scss.current_work_text}>
             <h2>current work</h2>
             <p>TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 

@@ -9,54 +9,29 @@ body {
   color: $text_color;
   min-width: 700px;
 }
-
-.current_work2 {
-  margin: 25px auto;
-  height: 400px;
-
-  .current_work_image {
-    width: auto;
-    height: 400px;
-    float: right;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-
-    img {
-      width:auto;
-      height:auto;
-      max-width:100%;
-      max-height:100%;
-      margin: 0px 50px;
-    }
-  }
-  .current_work_text {
-    border-right: mediumpurple 2px solid;
-    // background-color: brown;
-    text-align: center;
-    width: 40%;
-    height: 400px;
-    float: right;
-    p {
-      margin: 0px 50px;
-    }
+.current_work, .current_work2 {
+  p {
+    font-size: 12px;
+    color: $p_text_color;
   }
 }
 
 .current_work {
   margin: 25px auto;
   height: 400px;
-
+  .current_work_border {
+    border-left: mediumpurple 1px solid;
+    float: left;
+    height: 400px;
+    margin: 0 4%;
+  }
   .current_work_image {
-    width: 48%;
+    max-width: 60%;
     height: 400px;
     float: left;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
-
     img {
       width:auto;
       height:auto;
@@ -65,12 +40,46 @@ body {
     }
   }
   .current_work_text {
-    border-left: mediumpurple 2px solid;
-    // background-color: brown;
     text-align: center;
-    width: 50%;
+    width: 30%;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+    p {
+      margin: 0px 20px;
+    }
+  }
+}
+
+.current_work2 {
+  margin: 25px auto;
+  height: 400px;
+  .current_work_border {
+    border-left: mediumpurple 1px solid;
+    float: right;
+    height: 400px;
+    margin: 0 4%;
+  }
+  .current_work_image {
+    max-width: 60%;
     height: 400px;
     float: right;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width:auto;
+      height:auto;
+      max-width:100%;
+      max-height:100%;
+    }
+  }
+  .current_work_text {
+    text-align: center;
+    width: auto;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
     p {
       margin: 0px 50px;
     }
