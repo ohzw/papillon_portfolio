@@ -9,26 +9,94 @@ export default class extends React.Component {
     return(
       <div>
         <Header/>
-        <div className={scss.current_work}>
-          <div className={scss.current_work_image}><img src={require("../images/example_page1.jpg")}/></div>
-          <div className={scss.current_work_border}/>
-          <div className={scss.current_work_text}>
+        <div className={scss.work_big_style1}>
+          <div className={scss.work_big_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_border}/>
+          <div className={scss.work_big_text}>
             <h2>current work</h2>
-            <p>TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-            TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-            TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+            <p>
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
             </p>
           </div>
         </div>
-        <div className={scss.current_work2}>
-          <div className={scss.current_work_image}><img src={require("../images/example_page2.jpg")}/></div>
-          <div className={scss.current_work_border}/>
-          <div className={scss.current_work_text}>
+        <div className={scss.work_big_style2}>
+          <div className={scss.work_big_image}><img src={require("../images/example_page2.jpg")}/></div>
+          <div className={scss.work_border}/>
+          <div className={scss.work_big_text}>
             <h2>current work</h2>
-            <p>TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-            TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-            TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+            <p>
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
             </p>
+          </div>
+        </div>
+
+        <div className={scss.works}>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
+          </div>
+          <div className={scss.work_mini}>
+            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_border}></div>
+            <div className={scss.work_mini_text}>
+              <h3>current work</h3>
+              <h4>Design / Coding</h4>
+              <p>text text text text text text</p>
+            </div>
           </div>
         </div>
         <Footer/>
