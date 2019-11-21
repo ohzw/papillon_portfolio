@@ -35,64 +35,64 @@ export default class extends React.Component {
         </div>
 
         <div className={scss.works}>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
           </div>
-          <div className={scss.work_mini}>
-            <div className={scss.work_mini_image}><img src={require("../images/example_page1.jpg")}/></div>
+          <div className={scss.work_small}>
+            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
-            <div className={scss.work_mini_text}>
+            <div className={scss.work_small_text}>
               <h3>current work</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>

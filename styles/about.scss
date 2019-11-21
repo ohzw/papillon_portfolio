@@ -2,9 +2,13 @@
 @import "../styles/data/fonts.scss";
 @import "../styles/data/parameters.scss";
 
+html {
+  padding: 0px 1%;
+}
 body {
   padding: 0;
-  width: $site_width;
+  max-width: $site_max_width;
+  min-width: $site_min_width;
   margin: 0px auto;
   color: $text_color;
 }

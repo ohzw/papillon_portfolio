@@ -1,0 +1,71 @@
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
+
+html {
+  padding: 0px 1%;
+}
+body {
+  padding: 0;
+  max-width: $site_max_width;
+  min-width: $site_min_width;
+  margin: 0px auto;
+  color: $text_color;
+}
+
+
+.skills_image {
+  margin: 30px 0px;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .on_image_text{
+    width: 240px;
+    position: absolute;
+    color: white;
+    top: calc(100% - 20px);
+    left: calc(100% - 20px);
+    transform: translate(-100%,-100%);
+    h2, p {
+      margin:0;
+      padding:0;
+    }
+    h2  {
+      font-family: $skill_h_font;
+      font-size: 38px;
+    }
+    p {
+      font-size:none;
+    }
+  }
+}
+
+.languages{
+  margin-bottom: 100px;
+  text-align: center;
+  .language, .language_small{
+    display: inline-block;
+    border-left: black 1px solid;
+    margin: 15px auto;
+    height: 100px;
+    text-align: left;
+    h4, p {
+      padding: 0px 15px 0px 15px;
+      margin: 0;
+    }
+    h4{
+      padding-top: 10px;
+      font-family: $skill_h_font;
+    }
+    p {
+      color: $p_text_color;
+    }
+  }
+  .language{
+    width: calc((100% / 3) * 3);
+  }
+  .language_small {
+    width: calc((100% / 3) - 1px);
+  }
+}

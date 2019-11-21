@@ -2,13 +2,17 @@
 @import "../styles/data/fonts.scss";
 @import "../styles/data/parameters.scss";
 
+html {
+  padding: 0px 1%;
+}
 body {
   padding: 0;
-  width: $site_width;
+  max-width: $site_max_width;
+  min-width: $site_min_width;
   margin: 0px auto;
   color: $text_color;
-  min-width: 700px;
 }
+
 .work_big_style1, .work_big_style2 {
   p {
     font-size: 12px;
@@ -88,11 +92,11 @@ body {
 .works{
   margin: 100px 0;
   text-align: center;
-  .work_mini{
+  .work_small{
     display: inline-block;
     width:30%;
     margin: 0px 12px 20px 12px;
-    .work_mini_image {
+    .work_small_image {
       img {
         width: 100%;
         height: 100%;
@@ -102,20 +106,20 @@ body {
       border-top: $work_border_color 1px solid;
       margin: 5px 0px;
     }
-    .work_mini_text {
+    .work_small_text {
       text-align: left;
       h3, h4, p {
         margin: 0px 0px 5px 0px;
       }
       h3 {
-        font-family: $work_mini_text_h3_font;
+        font-family: $work_small_text_h3_font;
       }
       h4 {
-        font-family: $work_mini_text_h4_font;
+        font-family: $work_small_text_h4_font;
       }
       p {
         color: $p_text_color;
-        font-size: $work_mini_text_fontsize;
+        font-size: $work_small_text_fontsize;
       }
     }
   }
