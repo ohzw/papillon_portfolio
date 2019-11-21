@@ -13,11 +13,20 @@
     font-size: $footer_text_fontsize;
     font-family: $footer_text_font;
   }
-  .contact {
+  .sns {
     width: 30%;
     float: left;
     text-align: left;
-
+    font-size: 12px;
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      li {
+        display: inline;
+        margin-right: 20px;
+      }
+    }
   }
   .copyright {
     width: 30%;
