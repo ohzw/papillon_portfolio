@@ -7,8 +7,7 @@
   height: 60px;
   border-top: $border_style;
   line-height: 60px;
-
-  p {
+  p, li{
     margin: 0;
     font-size: $footer_text_fontsize;
     font-family: $footer_text_font;
@@ -17,7 +16,6 @@
     width: 30%;
     float: left;
     text-align: left;
-    font-size: 12px;
     ul {
       margin: 0px;
       padding: 0px;
