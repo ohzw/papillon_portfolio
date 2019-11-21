@@ -19,7 +19,7 @@ body {
     color: $p_text_color;
   }
   .work_border {
-    border-left: $work_border_color 1px solid;
+    border-left: $theme_color 1px solid;
     height: 400px;
     margin: 0 4%;
   }
@@ -103,7 +103,7 @@ body {
       }
     }
     .work_border {
-      border-top: $work_border_color 1px solid;
+      border-top: $theme_color 1px solid;
       margin: 5px 0px;
     }
     .work_small_text {
