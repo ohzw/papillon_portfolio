@@ -1,0 +1,102 @@
+@import "../styles/data/colors.scss";
+@import "../styles/data/fonts.scss";
+@import "../styles/data/parameters.scss";
+
+html {
+  padding: 0px 1%;
+}
+body {
+  padding: 0;
+  max-width: $site_max_width;
+  min-width: $site_min_width;
+  margin: 0px auto;
+  color: $text_color;
+}
+
+.work_title {
+  text-align: center;
+  margin-bottom: 50px;
+  h1 {
+    font-size: 28px;
+  }
+}
+
+.work_detail_style1 {
+  text-align: center;
+  margin-bottom: 120px;
+  img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+  }
+  h2 {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    color: $p_text_color;
+    padding: 0px 15%;
+  }
+}
+
+.work_detail_style2 {
+  text-align: center;
+  margin-bottom: 120px;
+  img {
+    width:100%; //幅優先
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+  }
+  h2 {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    color: $p_text_color;
+  }
+  .text_box {
+    height: auto;
+    padding: 0 10%;
+    display: inline-block;
+    .text_left, .text_right {
+      width: 45%;
+    }
+    .text_left {
+      float: left;
+    }
+    .text_right{
+      float: right;
+    }
+  }
+}
+
+.work_detail_style3 {
+  text-align: center;
+  margin-bottom: 120px;
+  display: inline-block;
+  img {
+    width:auto;
+    height:auto;
+    max-width: 50%;
+    max-height:100%;
+    float: left;
+  }
+  h2 {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    color: $p_text_color;
+  }
+  .box {
+    height: auto;
+    padding: 0 6%;
+    width: 38%;
+    float: right;
+  }
+}
