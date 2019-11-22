@@ -12,7 +12,7 @@ export default class extends React.Component {
 
         <div className={scss.path}>
           {/* この辺Next.js使いたい */}
-          work > papillon_website 
+          work > papillon_website
         </div>
 
         <div className={scss.work_title}>
