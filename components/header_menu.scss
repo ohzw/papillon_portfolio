@@ -3,3 +3,19 @@
 .menu_current {
   color: $theme_color;
 }
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: $text_color;
+}
+a:hover {
+  color: $theme_color;
+  opacity: 0.5;
+}
+a:active {
+  color: $theme_color;
+  opacity: 0.5;
+}
+

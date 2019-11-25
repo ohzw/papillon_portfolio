@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import scss from "../styles/contact.scss"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
@@ -11,9 +12,9 @@ export default class extends React.Component {
         <Header/>
         <div className={scss.header_menu}>
           <ul>
-            <li>ABOUT</li>
-            <li>WORKS</li>
-            <li>SKILL</li>
+            <li><Link href="/about" pressHref>ABOUT</Link></li>
+            <li><Link href="/works" pressHref>WORKS</Link></li>
+            <li><Link href="/skill" pressHref>SKILL</Link></li>
             <li className={scss.menu_current}>CONTACT</li>
           </ul>
         </div>

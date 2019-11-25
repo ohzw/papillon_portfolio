@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import scss from "../styles/works.scss"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
@@ -11,10 +12,10 @@ export default class extends React.Component {
         <Header/>
         <div className={scss.header_menu}>
           <ul>
-            <li>ABOUT</li>
+            <li><Link href="/about" pressHref>ABOUT</Link></li>
             <li className={scss.menu_current}>WORKS</li>
-            <li>SKILL</li>
-            <li>CONTACT</li>
+            <li><Link href="/skill" pressHref>SKILL</Link></li>
+            <li><Link href="/contact" pressHref>CONTACT</Link></li>
           </ul>
         </div>
 
@@ -45,10 +46,12 @@ export default class extends React.Component {
 
         <div className={scss.works}>
           <div className={scss.work_small}>
-            <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
+            <div className={scss.work_small_image}>
+              <Link href="/about" passHref><img src={require("../images/example_page1.jpg")}/></Link>
+            </div>
             <div className={scss.work_border}></div>
             <div className={scss.work_small_text}>
-              <h3>current work</h3>
+              <h3>papillon website</h3>
               <h4>Design / Coding</h4>
               <p>text text text text text text</p>
             </div>
