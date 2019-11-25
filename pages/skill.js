@@ -10,6 +10,15 @@ export default class extends React.Component {
     return(
       <div>
         <Header/>
+        <div className={scss.header_menu}>
+          <ul>
+            <li>ABOUT</li>
+            <li>WORKS</li>
+            <li className={scss.menu_current}>SKILL</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+
           <div className={scss.skills_image}>
             <img src={require("../images/example_page1.jpg")}/>
             <div className={scss.on_image_text}>

@@ -2,6 +2,8 @@
 @import "../styles/data/fonts.scss";
 @import "../styles/data/parameters.scss";
 
+@import "../components/header_menu.scss";
+
 html {
   padding: 0px 1%;
 }
@@ -12,6 +14,7 @@ body {
   margin: 0px auto;
   color: $text_color;
 }
+
 h2, h3, h4 {
   font-family: $work_h_font;
 }

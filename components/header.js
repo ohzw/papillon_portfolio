@@ -9,15 +9,6 @@ export default class extends React.Component {
           <h1>PAPILLION</h1>
           <p>個人が輝ける未来への挑戦 adojfsidof</p>
         </div>
-
-        <div className={scss.header_menu}>
-          <ul>
-            <li>ABOUT</li>
-            <li>WORKS</li>
-            <li>SKILL</li>
-            <li>CONTACT</li>
-          </ul>
-        </div>
       </div>
     )
   }

@@ -9,6 +9,14 @@ export default class extends React.Component {
     return(
       <div>
         <Header/>
+        <div className={scss.header_menu}>
+          <ul>
+            <li>ABOUT</li>
+            <li className={scss.menu_current}>WORKS</li>
+            <li>SKILL</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
 
         <div className={scss.path}>
           {/* この辺Next.js使いたい */}

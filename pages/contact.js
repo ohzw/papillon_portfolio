@@ -9,6 +9,14 @@ export default class extends React.Component {
     return(
       <div>
         <Header/>
+        <div className={scss.header_menu}>
+          <ul>
+            <li>ABOUT</li>
+            <li>WORKS</li>
+            <li>SKILL</li>
+            <li className={scss.menu_current}>CONTACT</li>
+          </ul>
+        </div>
 
         <div className={scss.contact}>
           <div className={scss.form}>
