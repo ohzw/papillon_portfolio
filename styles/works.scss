@@ -21,7 +21,8 @@ h2, h3, h4 {
 
 .work_big_style1, .work_big_style2 {
   p {
-    font-size: 12px;
+    font-size: $work_big_text_fontsize;
+    font-family: $p_text_font;
     color: $p_text_color;
   }
 

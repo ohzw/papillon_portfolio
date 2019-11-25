@@ -25,7 +25,7 @@ export default class extends React.Component {
           <div className={scss.work_big_text}>
             <h2>current work</h2>
             <p>
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+            Myself and my friend Jack set up an outside studio to try out some portraits on my large format camera.説明。 TEXT 説明。 TEXT 説明。 
               TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
               TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
             </p>
