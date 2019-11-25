@@ -56,10 +56,12 @@ body {
     }
     h4{
       padding-top: 10px;
+      margin-bottom: 6px;
       font-family: $skill_h_font;
     }
     p {
       color: $p_text_color;
+      font-size: $skill_p_fontsize;
     }
   }
   .language{

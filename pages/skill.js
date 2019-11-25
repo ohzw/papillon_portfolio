@@ -19,7 +19,7 @@ export default class extends React.Component {
           </div>
           <div className={scss.languages}>
             <div className={scss.language}>
-              <font color="red">
+              <font color="skyblue">
               <h4>Language long</h4>
               </font>
               <p>text text text text text text text text text text text text text text text text text text </p>
@@ -27,43 +27,43 @@ export default class extends React.Component {
 
           <br/>
             <div className={scss.language_small}>
-              <font color="pink">
+              <font color="aquamarine">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="purple">
+              <font color="lightgreen">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="orange">
+              <font color="palegoldenrod">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="lightblue">
+              <font color="navajowhite">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="blue">
+              <font color="wheat">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="cyan">
+              <font color="lightpink">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>
             </div>
             <div className={scss.language_small}>
-              <font color="brown">
+              <font color="plum">
               <h4>Language</h4>
               </font>
               <p>text text text text text text text text text </p>

@@ -1,17 +1,22 @@
-$header_font: "Bebas";
-$header_text_font: "Meiryo";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+$header_font: 'Source Sans Pro', sans-serif;
+$header_fontsize: 90px;
+$header_text_font: 'Source Sans Pro', sans-serif;
 $header_text_fontsize: 18px;
-$header_menu_font: "Bebas";
-$header_menu_fontsize: 15px;
+$header_menu_font: 'Source Sans Pro', sans-serif;
+$header_menu_fontsize: 18px;
 
-$footer_text_font: "Bebas Neue";
-$footer_text_fontsize: 16px;
+$footer_text_font: 'Source Sans Pro', sans-serif;
+$footer_text_fontsize: 14px;
 
-$about_company_font: "Meiryo";
-$about_company_fontsize: 12px;
+$about_company_font: sans-serif;
+$about_company_fontsize: 14px;
 
-$work_small_text_h3_font: "Bebas Neue";
-$work_small_text_h4_font: "Bebas Neue";
+$work_h_font: 'Source Sans Pro', sans-serif;
+$work_small_text_h3_fontsize: 16px;
+$work_small_text_h4_fontsize: 12px;
 $work_small_text_fontsize: 12px;
 
-$skill_h_font :"Bebas";
+$skill_h_font: 'Source Sans Pro', sans-serif;
+$skill_p_fontsize: 14px;

@@ -13,6 +13,10 @@ body {
   color: $text_color;
 }
 
+h1, h2 {
+  font-family: $work_h_font;
+}
+
 .work_title {
   text-align: center;
   margin-bottom: 50px;

@@ -12,12 +12,16 @@ body {
   margin: 0px auto;
   color: $text_color;
 }
+h2, h3, h4 {
+  font-family: $work_h_font;
+}
 
 .work_big_style1, .work_big_style2 {
   p {
     font-size: 12px;
     color: $p_text_color;
   }
+
   .work_border {
     border-left: $theme_color 1px solid;
     height: 400px;
@@ -26,7 +30,7 @@ body {
 }
 
 .work_big_style1 {
-  margin: 25px auto;
+  margin: 30px auto;
   height: 400px;
   .work_border {
     float: left;
@@ -112,10 +116,10 @@ body {
         margin: 0px 0px 5px 0px;
       }
       h3 {
-        font-family: $work_small_text_h3_font;
+        font-size: $work_small_text_h3_fontsize;
       }
       h4 {
-        font-family: $work_small_text_h4_font;
+        font-size: $work_small_text_h4_fontsize;
       }
       p {
         color: $p_text_color;
