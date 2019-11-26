@@ -19,10 +19,6 @@ export default class extends React.Component {
           </ul>
         </div>
 
-        <div className={scss.path}>
-          {/* この辺Next.js使いたい */}
-          work > papillon_website 仮
-        </div>
 
         <div className={scss.work_title}>
           <h1>Project 1</h1>
