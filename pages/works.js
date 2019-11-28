@@ -12,10 +12,10 @@ export default class extends React.Component {
         <Header/>
         <div className={scss.header_menu}>
           <ul>
-            <li><Link href="/about" pressHref>ABOUT</Link></li>
+            <li><Link href="/about"><a>ABOUT</a></Link></li>
             <li className={scss.menu_current}>WORKS</li>
-            <li><Link href="/skill" pressHref>SKILL</Link></li>
-            <li><Link href="/contact" pressHref>CONTACT</Link></li>
+            <li><Link href="/skill"><a>SKILL</a></Link></li>
+            <li><Link href="/contact"><a>CONTACT</a></Link></li>
           </ul>
         </div>
 
@@ -25,9 +25,9 @@ export default class extends React.Component {
           <div className={scss.work_big_text}>
             <h2>current work</h2>
             <p>
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
             </p>
           </div>
         </div>
@@ -37,9 +37,9 @@ export default class extends React.Component {
           <div className={scss.work_big_text}>
             <h2>current work</h2>
             <p>
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
-              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
+              TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。 TEXT 説明。
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default class extends React.Component {
         <div className={scss.works}>
           <div className={scss.work_small}>
             <div className={scss.work_small_image}>
-              <Link href="/works/papillon_website" passHref><img src={require("../images/example_page1.jpg")}/></Link>
+              <Link href="/works/papillon_website"><img src={require("../images/example_page1.jpg")}/></Link>
             </div>
             <div className={scss.work_border}></div>
             <div className={scss.work_small_text}>
