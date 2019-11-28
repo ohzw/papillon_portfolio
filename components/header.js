@@ -6,7 +6,7 @@ export default class extends React.Component {
     return(
       <div>
         <div className={scss.header_title}>
-          <h1>PAPILLION</h1>
+          <h1>PAPILLON</h1>
           <p>個人が輝ける未来への挑戦</p>
         </div>
       </div>

@@ -19,6 +19,8 @@
     margin-top: 0px;
     font-family: $header_text_font;
     font-size: $header_text_fontsize;
+    color: $theme_color;
+    opacity: 0.8;
   }
 }
 
@@ -34,5 +36,6 @@
     font-family: $header_menu_font;
     font-size: $header_menu_fontsize;
     font-weight: bolder;
+    letter-spacing: 0.08em;
   }
 }

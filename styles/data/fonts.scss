@@ -1,34 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700|Source+Sans+Pro:400,700');
 
-$header_font: 'Source Sans Pro', sans-serif;
+// $header_font: 'Source Sans Pro', sans-serif;
+$header_font: 'Sitka Banner';
 $header_fontsize: 90px;
-$header_text_font: 'Noto Serif JP', sans-serif;
+$header_text_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
 $header_text_fontsize: 18px;
-$header_menu_font: 'Source Sans Pro', sans-serif;
+$header_menu_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
 $header_menu_fontsize: 18px;
 
-$p_text_font: Lato,'Noto Sans JP', sans-serif;
-$p_text_fontsize: 14px;
+$p_text_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
+$p_text_fontsize: 16px;
 
-$footer_text_font: 'Source Sans Pro', sans-serif;
+$footer_text_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
 $footer_text_fontsize: 14px;
 
-$about_company_font: sans-serif;
-$about_company_fontsize: 14px;
+$about_company_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
+$about_company_fontsize: 16px;
 
 
-$work_h_font: 'Source Sans Pro','Noto Sans JP', sans-serif;
+$work_h_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
 $work_big_text_fontsize: 14px;
-$work_small_text_h3_fontsize: 16px;
-$work_small_text_h4_fontsize: 12px;
-$work_small_text_fontsize: 12px;
+$work_small_text_h3_fontsize: 18px;
+$work_small_text_h4_fontsize: 14px;
+$work_small_text_fontsize: 14px;
 
-$skill_h_font: Lato,'Noto Sans JP', sans-serif;
-$skill_p_fontsize: 14px;
+$skill_h_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
+$skill_h_fontsize: 18px;
+$skill_p_fontsize: 16px;
 
-$form_font: Lato,'Noto Sans JP', sans-serif;
-// $form_font: Arial, Helvetica, sans-serif;
+$form_font: 'Source Sans Pro', 'Noto Sans JP', Meiryo;
 $form_fontsize: 14px;
