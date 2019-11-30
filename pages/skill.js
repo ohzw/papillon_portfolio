@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 import scss from "../styles/skill.scss"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
@@ -10,6 +11,10 @@ export default class extends React.Component {
   render() {
     return(
       <div>
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
+        
         <Header/>
         <div className={scss.header_menu}>
           <ul>
