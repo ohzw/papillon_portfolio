@@ -16,9 +16,9 @@ export default class extends React.Component {
         <div className={scss.header_menu}>
           <ul>
             <li className={scss.menu_current}>ABOUT</li>
-            <li><Link href="/works" pressHref>WORKS</Link></li>
-            <li><Link href="/skill" pressHref>SKILL</Link></li>
-            <li><Link href="/contact" pressHref>CONTACT</Link></li>
+            <li><Link href="/works"><a>WORKS</a></Link></li>
+            <li><Link href="/skill"><a>SKILL</a></Link></li>
+            <li><Link href="/contact"><a>CONTACT</a></Link></li>
           </ul>
         </div>
 
@@ -29,7 +29,7 @@ export default class extends React.Component {
               <li>COMPANY: 株式会社Papillon</li>
               <li>ESTABLISHED: 2019</li>
               <li>PRESIDENT DIRECTOR: TSUZUKI RYOGO</li>
-              <li>CAPITAL: 900万円</li>
+              <li>CAPITAL: 100万円</li>
             </ul>
           </div>
         </div>
