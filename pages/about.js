@@ -25,7 +25,7 @@ export default class extends React.Component {
               <li>COMPANY: 株式会社Papillon</li>
               <li>ESTABLISHED: 2019</li>
               <li>PRESIDENT DIRECTOR: TSUZUKI RYOGO</li>
-              <li>CAPITAL: 900万円</li>
+              <li>CAPITAL: 100万円</li>
             </ul>
           </div>
         </div>
