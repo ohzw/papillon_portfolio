@@ -1,8 +1,9 @@
 {
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
