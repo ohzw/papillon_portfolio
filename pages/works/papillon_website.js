@@ -12,10 +12,10 @@ export default class extends React.Component {
         <Header/>
         <div className={scss.header_menu}>
           <ul>
-            <li><Link href="/about" pressHref>ABOUT</Link></li>
+            <li><Link href="/about"><a>ABOUT</a></Link></li>
             <li className={scss.menu_current}>WORKS</li>
-            <li><Link href="/skill" pressHref>SKILL</Link></li>
-            <li><Link href="/contact" pressHref>CONTACT</Link></li>
+            <li><Link href="/skill"><a>SKILL</a></Link></li>
+            <li><Link href="/contact"><a>CONTACT</a></Link></li>
           </ul>
         </div>
 
