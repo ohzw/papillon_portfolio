@@ -13,7 +13,7 @@ export default class extends React.Component {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
-        
+
         <Header/>
         <div className={scss.header_menu}>
           <ul>
