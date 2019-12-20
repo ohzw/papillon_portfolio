@@ -16,12 +16,14 @@ export default class extends React.Component {
 
         <Header/>
         <div className={scss.header_menu}>
+          <nav class="cl-effect-11">
           <ul>
-            <li><Link href="/about"><a>ABOUT</a></Link></li>
+            <li><Link href="/about"><a data-hover="Desultory">ABOUT</a></Link></li>
             <li><Link href="/works"><a>WORKS</a></Link></li>
             <li><Link href="/skill"><a>SKILL</a></Link></li>
             <li className={scss.menu_current}>CONTACT</li>
           </ul>
+          </nav>
         </div>
 
         <div className={scss.contact}>

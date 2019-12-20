@@ -3,6 +3,31 @@
 .menu_current {
   color: $theme_color;
 }
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color:#000;
+}
+
+a::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
 
 a:link {
   text-decoration: none;
