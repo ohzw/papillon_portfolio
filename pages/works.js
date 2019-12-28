@@ -11,6 +11,7 @@ export default class extends React.Component {
     return(
       <div>
         <Head>
+        <script type="text/javascript" src="../static/works_feido.js"/>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 
@@ -24,12 +25,12 @@ export default class extends React.Component {
           </ul>
         </div>
 
+
+     
         <div className={scss.work_big_style1}>
           <div className={scss.work_big_image}>
-            
             <figure><img src={require("../images/example_page1.jpg")}/>
             </figure>
-            
             </div>
           <div className={scss.work_border}/>
           <div className={scss.work_big_text}>
@@ -41,8 +42,11 @@ export default class extends React.Component {
             </p>
           </div>
         </div>
+     
+      
         <div className={scss.work_big_style2}>
           <div className={scss.work_big_image}><img src={require("../images/example_page2.jpg")}/></div>
+        
           <div className={scss.work_border}/>
           <div className={scss.work_big_text}>
             <h2>current work</h2>
@@ -66,6 +70,7 @@ export default class extends React.Component {
               <p>text text text text text text</p>
             </div>
           </div>
+
           <div className={scss.work_small}>
             <div className={scss.work_small_image}><img src={require("../images/example_page1.jpg")}/></div>
             <div className={scss.work_border}></div>
