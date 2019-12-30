@@ -26,7 +26,6 @@ export default class extends React.Component {
 
         <div className={scss.work_big_style1}>
           <div className={scss.work_big_image}><img src={require("../images/example_page1.jpg")}/></div>
-          <div className={scss.work_border}/>
           <div className={scss.work_big_text}>
             <h2>current work</h2>
             <p>
@@ -38,7 +37,6 @@ export default class extends React.Component {
         </div>
         <div className={scss.work_big_style2}>
           <div className={scss.work_big_image}><img src={require("../images/example_page2.jpg")}/></div>
-          <div className={scss.work_border}/>
           <div className={scss.work_big_text}>
             <h2>current work</h2>
             <p>

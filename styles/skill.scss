@@ -48,8 +48,12 @@ body {
   text-align: left;
   .language, .language_small{
     display: inline-block;
-    border-left: black 1px solid;
+    border-left: $theme_color 5px solid;
+    border-right: white 20px solid;
+    box-sizing: border-box;
+    background: rgb(241, 241, 241);
     margin: 15px auto;
+    // margin-right: 10px;
     height: 100px;
     text-align: left;
     h4, p {
@@ -72,6 +76,6 @@ body {
     width: calc((100% / 3) * 3);
   }
   .language_small {
-    width: calc((100% / 3) - 1px);
+    width: calc((100% / 3) - 0px);
   }
 }
