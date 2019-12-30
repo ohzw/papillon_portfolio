@@ -7,10 +7,10 @@ export default class extends React.Component {
     return(
       <div>
         <Head>
-          <script type="text/javascript" src="../static/script.js"/>
+          <script type="text/javascript" src="../static/page_top.js"/>
         </Head>
         <div className={scss.page_top}>
-          <a href="#" id="return-top">PAGE TOP ▲</a>
+          <a id ='pagetop' href="#">PAGE TOP ▲</a>
         </div>
       </div>
     )

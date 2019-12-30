@@ -23,5 +23,5 @@ topButton.addEventListener("click", function(e){
 
 }
 
-// 使用例 トップに戻るボタンの id とアニメーションにかかる時間をミリ秒で指定
-topButton("return-top", 300)
+//トップに戻るボタンの id とアニメーションにかかる時間をミリ秒で指定
+topButton("pagetop", 300)
